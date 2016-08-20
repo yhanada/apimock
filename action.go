@@ -89,6 +89,7 @@ func (mgr *actionManager) getActions(filePath string) (map[string]*actionDefinit
 
 	var data map[string]map[string]interface{}
 	if err := json.Unmarshal(jsonValue, &data); err != nil {
+		fmt.Println("Failed to parse json file.:", filePath)
 		panic(err)
 		return nil, err
 	}
