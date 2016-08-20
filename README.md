@@ -7,6 +7,7 @@ if you prepare `actions.json` file, `apimock` use this file as response JSON dat
 
 ### clone from github in GOPATH directory
 ```shell
+mkdir -p ${GOPATH}/src/github.com/yhanada
 cd ${GOPATH}/src/github.com/yhanada
 git clone git@github.com:yhanada/apimock.git
 cd apimock
@@ -16,6 +17,12 @@ cd apimock
 
 ```shell
 make build
+```
+
+### run
+
+```shell
+make run
 ```
 
 ## API response data

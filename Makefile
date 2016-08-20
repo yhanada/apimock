@@ -9,8 +9,8 @@ fmt:
 	gofmt -w ./
 	goimports -w ./
 
-run: build
-	go run ./cmd/server.go
+run:
+	go run ./cmd/server.go -root ./root
 
 build: clean
 	go build -o $(APP_NAME) ./cmd/server.go
