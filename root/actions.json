@@ -1,0 +1,20 @@
+{
+    "GET": {
+        "status": 200,
+        "body": {
+            "result": "OK"
+        }
+    },
+    "POST": {
+        "body": {
+            "id": 2
+        }
+    },
+    "PUT": {
+        "status": 400,
+        "body": {
+            "result": "error",
+            "reason": "id is not found"
+        }
+    }
+}
