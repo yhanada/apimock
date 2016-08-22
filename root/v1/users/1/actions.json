@@ -1,18 +1,23 @@
 {
     "GET": {
-        "status": 200,
         "body": {
-            "result": "OK"
+            "id": 1,
+            "name": "Taro Yamada"
         }
     },
     "POST": {
-        "status": 500
+        "status": 405
     },
     "PUT": {
-        "status": 400,
         "body": {
-            "result": "error",
-            "reason": "id is not found"
+            "id": 1,
+            "name": "Taro Takahashi"
+        }
+    },
+    "DELETE": {
+        "body": {
+            "result": "deleted",
+            "id": 1
         }
     }
 }

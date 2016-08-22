@@ -1,0 +1,19 @@
+{
+    "GET": {
+        "body": [
+            {"id": 1, "name": "Taro Yamada"}
+        ]
+    },
+    "POST": {
+        "body": {
+            "id": 2,
+            "name": "Satoru Satonaka"
+        }
+    },
+    "PUT": {
+        "status": 405
+    },
+    "DELETE": {
+        "status": 405
+    }
+}

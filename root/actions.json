@@ -1,20 +1,14 @@
 {
     "GET": {
-        "status": 200,
-        "body": {
-            "result": "OK"
-        }
+        "status": 405
     },
     "POST": {
-        "body": {
-            "id": 2
-        }
+        "status": 405
     },
     "PUT": {
-        "status": 400,
-        "body": {
-            "result": "error",
-            "reason": "id is not found"
-        }
+        "status": 405
+    },
+    "DELETE": {
+        "status": 405
     }
 }
